@@ -17,7 +17,7 @@ deb http://deb.debian.org/debian/ jessie-backports main
 deb-src http://deb.debian.org/debian/ jessie-backports main
 EOF
 
-fetch-url "http://repo.linaro.org/debian/linarorepo.key" "/target/tmp/key.pub"
+cp /usr/share/linaro/linarorepo.key /target/tmp/key.pub
 in-target apt-key add "/tmp/key.pub"
 in-target apt-get update -q
 apt-install linux-image-reference-arm64

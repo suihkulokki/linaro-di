@@ -1,3 +1,11 @@
+linaro-di (7) jessie; urgency=medium
+
+  * Arch: all packages
+  * use deb.d.o
+  * embed linaro key
+
+ -- Riku Voipio <riku.voipio@linaro.org>  Mon, 24 Jul 2017 17:33:37 +0300
+
 linaro-di (6) jessie; urgency=medium
 
   * install apt-key in target
